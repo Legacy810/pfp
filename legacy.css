@@ -1,0 +1,15 @@
+
+              h1 {
+            font-size: 36px;
+            color: #38bdf8;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 5px rgba(0, 255, 255, 0.5);
+            animation: glitch 1s infinite;
+        }
+
+        @keyframes glitch {
+            0% { text-shadow: 3px 3px red; }
+            50% { text-shadow: -3px -3px cyan; }
+            100% { text-shadow: 3px 3px red; }
+        
+        }
